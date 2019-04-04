@@ -1,0 +1,48 @@
+
+
+Quais informações utilizar ? De onde pegar
+- Tweets about a company (good/bad)
+- Reddit Posts (goods/bad)
+- News headlines about a company (good/bad)
+- Past Prices
+- All sorts of social media, blog Posts
+- All sorts of financial metadata (dividends, financial reports, etc)
+
+
+-> Problema regressão --- Problema de classificação
+
+
+Analise de sentimento  ---> São ferramentas em inglês
+- NLTK
+- TextBlob
+
+
+
+Fontes de dados -
+Yahoo Finance
+https://www.quandl.com/tools/api
+
+
+High frequency trading - Trabalhar com pequenas flutuações
+
+
+---- Prever as condições de Mercado
+
+Meu mic ta zoado, vou escrever mesmo. A ideia inicial seria começar uma analise técnica e flutuação fazendo apenas day trade. Dessa forma teremos estabelecido um padrão de altos e baixos. Dps podemos cruzar as informações de noticias e RIs
+https://www.trademap.com.br/
+
+TradeMap - Seus investimentos em tempo real
+
+Logo Trademap
+Esse aplicativo reuni varias noticias relacionadas a economia
+podemos aproveitar isso
+
+Postar o GIThub do Stock IT para o pessoal brincar 
+https://www.stockit.tech/play
+https://github.com/llSourcell/AI_in_Finance
+
+Quem tiver acesso ao Pluralsight:
+https://app.pluralsight.com/library/courses/keras-deep-learning/table-of-contents
+
+Biblioteca muito foda:
+KERAS

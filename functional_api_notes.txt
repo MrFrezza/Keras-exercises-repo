@@ -1,0 +1,12 @@
+//////////////
+
+im = Input(shape=(100,200), name='input_main)
+ls = LSTM(10, name='lstm_main')(im)
+dl = Dense(5, name='dense_lstm')(ls)
+
+ix = Input(name='input_aux')
+cc = concatenate([dl,ix], name='d_lstm_and_aux_in')
+
+x = Dense(32, name='dm_out')(cc)
+mo = Dense(1, name='main_out')(x)
+ao = Dense(2, name='aux_out')(cc)
